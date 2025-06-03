@@ -1,0 +1,3225 @@
+[
+  {
+    "platform": "Intigriti",
+    "program_name": "Here Technologies",
+    "program_url": "https://app.intigriti.com/programs/heretechnologies/heretechnologies/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 1000,
+          "Critical": 1600,
+          "Exceptional": 2000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 0,
+          "High": 0,
+          "Critical": 0,
+          "Exceptional": 1000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "intigriti",
+    "program_url": "https://app.intigriti.com/programs/intigriti/intigriti/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 13337,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 50,
+          "Medium": 1000,
+          "High": 4000,
+          "Critical": 8000,
+          "Exceptional": 13337
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 50,
+          "Medium": 200,
+          "High": 600,
+          "Critical": 1000,
+          "Exceptional": 3000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Monzo Public Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 125,
+    "max_bounty_overview": 12500,
+    "currency_overview": "GBP",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "£",
+        "rewards": {
+          "Low": 200,
+          "Medium": 1500,
+          "High": 4500,
+          "Critical": 8250,
+          "Exceptional": 12500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "£",
+        "rewards": {
+          "Low": 125,
+          "Medium": 950,
+          "High": 3750,
+          "Critical": 6500,
+          "Exceptional": 10000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Ninja Kiwi Games Bug Bounty program",
+    "program_url": "https://app.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 75,
+    "max_bounty_overview": 4125,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 165,
+          "Medium": 1080,
+          "High": 2060,
+          "Critical": 3300,
+          "Exceptional": 4125
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 110,
+          "Medium": 715,
+          "High": 1375,
+          "Critical": 2200,
+          "Exceptional": 2750
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 75,
+          "Medium": 450,
+          "High": 865,
+          "Critical": 1400,
+          "Exceptional": 1700
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Aikido Security: Zen by Aikido ",
+    "program_url": "https://app.intigriti.com/programs/aikido/aikidoruntime/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 2500,
+          "Exceptional": 3500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 200,
+          "High": 500,
+          "Critical": 1000,
+          "Exceptional": 1000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 200,
+          "High": 400,
+          "Critical": 750,
+          "Exceptional": 750
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Personio",
+    "program_url": "https://app.intigriti.com/programs/personio/personio/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 175,
+          "Medium": 350,
+          "High": 1125,
+          "Critical": 3000,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 100,
+          "High": 450,
+          "Critical": 1000,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "DataCamp",
+    "program_url": "https://app.intigriti.com/programs/datacamp/datacamp/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 1500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 750,
+          "Critical": 1200,
+          "Exceptional": 1500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 125,
+          "High": 375,
+          "Critical": 600,
+          "Exceptional": 750
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Visma",
+    "program_url": "https://app.intigriti.com/programs/visma/visma/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 7500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 250,
+          "High": 1000,
+          "Critical": 3000,
+          "Exceptional": 7500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Visma Responsible Disclosure",
+    "program_url": "https://app.intigriti.com/programs/visma/VismaResponsibleDisclosure/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Intel®",
+    "program_url": "https://app.intigriti.com/programs/intel/intel/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 250,
+    "max_bounty_overview": 100000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "$",
+        "rewards": {
+          "Low": 2000,
+          "Medium": 5000,
+          "High": 30000,
+          "Critical": 100000,
+          "Exceptional": 100000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "$",
+        "rewards": {
+          "Low": 1000,
+          "Medium": 3000,
+          "High": 15000,
+          "Critical": 30000,
+          "Exceptional": 30000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "$",
+        "rewards": {
+          "Low": 500,
+          "Medium": 1500,
+          "High": 5000,
+          "Critical": 10000,
+          "Exceptional": 10000
+        }
+      },
+      {
+        "tier_name": "Tier 4",
+        "currency": "$",
+        "rewards": {
+          "Low": 250,
+          "Medium": 750,
+          "High": 2500,
+          "Critical": 5000,
+          "Exceptional": 5000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Ubisoft VDP",
+    "program_url": "https://app.intigriti.com/programs/ubisoft/ubisoftvdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Fing Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/lansweeper/fing/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 200,
+          "High": 750,
+          "Critical": 2000,
+          "Exceptional": 3500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 100,
+          "High": 350,
+          "Critical": 750,
+          "Exceptional": 1500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Kiwa Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/kiwa/kiwavdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Port of Antwerp-Bruges",
+    "program_url": "https://app.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 4500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1500,
+          "Critical": 3500,
+          "Exceptional": 4500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 350,
+          "High": 1000,
+          "Critical": 2500,
+          "Exceptional": 3500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "VRT",
+    "program_url": "https://app.intigriti.com/programs/vrtnv/vrtnv/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 2000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 300,
+          "High": 750,
+          "Critical": 1300,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Lansweeper Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/lansweeper/lansweeper1/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 6000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 350,
+          "High": 1500,
+          "Critical": 3500,
+          "Exceptional": 6000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 250,
+          "High": 750,
+          "Critical": 1500,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 125,
+          "High": 250,
+          "Critical": 500,
+          "Exceptional": 1000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Capital.com",
+    "program_url": "https://app.intigriti.com/programs/capitalcom/capitalcom/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 15000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 1500,
+          "High": 6000,
+          "Critical": 9000,
+          "Exceptional": 15000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 1000,
+          "High": 4500,
+          "Critical": 6000,
+          "Exceptional": 7500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 450,
+          "High": 1000,
+          "Critical": 1500,
+          "Exceptional": 2250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Arm",
+    "program_url": "https://app.intigriti.com/programs/arm/arm/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 15000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Moralis VDP",
+    "program_url": "https://app.intigriti.com/programs/moralis/moralisio/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Axel Springer National Media & Tech",
+    "program_url": "https://app.intigriti.com/programs/axelspringerse/nmt/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 15,
+    "max_bounty_overview": 2500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 150,
+          "High": 300,
+          "Critical": 1250,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 35,
+          "Medium": 100,
+          "High": 200,
+          "Critical": 500,
+          "Exceptional": 1000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 15,
+          "Medium": 50,
+          "High": 75,
+          "Critical": 250,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Bpost",
+    "program_url": "https://app.intigriti.com/programs/bpost/dummy/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 1500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 100,
+          "High": 250,
+          "Critical": 1000,
+          "Exceptional": 1500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Signicat Responsible Disclosure",
+    "program_url": "https://app.intigriti.com/programs/signicat/signicatresponsibledisclosure/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Arbonia VDP program",
+    "program_url": "https://app.intigriti.com/programs/arbonia/arboniavdpprogram/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Cross Border Fines",
+    "program_url": "https://app.intigriti.com/programs/bpost/crossborderfines/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 3000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 250,
+          "High": 500,
+          "Critical": 1500,
+          "Exceptional": 3000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Exact Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/exact/exactvulnerabilitydisclosureprogram/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Aikido Security: Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/aikido/aikido/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 2500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 600,
+          "Critical": 1500,
+          "Exceptional": 2500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Kinepolis Group",
+    "program_url": "https://app.intigriti.com/programs/kinepolis/website/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 200,
+          "High": 750,
+          "Critical": 2500,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 150,
+          "High": 500,
+          "Critical": 1250,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 25,
+          "High": 100,
+          "Critical": 175,
+          "Exceptional": 250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Delen Private Bank",
+    "program_url": "https://app.intigriti.com/programs/delenprivatebank/privatebankdelen/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 15000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 250,
+          "High": 2500,
+          "Critical": 8000,
+          "Exceptional": 15000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Spring Heist 2025",
+    "program_url": "https://app.intigriti.com/programs/belgianbankinsurer/springheist2025/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "SimScale",
+    "program_url": "https://app.intigriti.com/programs/simscale/simscale/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 6000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 250,
+          "Medium": 750,
+          "High": 2000,
+          "Critical": 4000,
+          "Exceptional": 6000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 100,
+          "High": 200,
+          "Critical": 500,
+          "Exceptional": 1000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "PDQ bug bounty program",
+    "program_url": "https://app.intigriti.com/programs/pdq/pdqcomprivate/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1250,
+          "Critical": 3000,
+          "Exceptional": 3500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 325,
+          "High": 625,
+          "Critical": 1000,
+          "Exceptional": 1250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Robinhood Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/robinhood/robinhoodbbp/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 50000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 5000,
+          "Critical": 10000,
+          "Exceptional": 25000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 5000,
+          "Critical": 10000,
+          "Exceptional": 25000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Venly",
+    "program_url": "https://app.intigriti.com/programs/arkane/arkanenetwork/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1500,
+          "Critical": 2500,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 325,
+          "High": 625,
+          "Critical": 1000,
+          "Exceptional": 1250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Voi Scooters",
+    "program_url": "https://app.intigriti.com/programs/voi/voiscooters/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 2500,
+          "Exceptional": 3500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 750,
+          "Critical": 1250,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 250,
+          "Exceptional": 400
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "OVO VDP",
+    "program_url": "https://app.intigriti.com/programs/ovoenergy/ovovdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "GBP",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Donorbox VDP",
+    "program_url": "https://app.intigriti.com/programs/donorbox/donorboxvdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "InnoGames",
+    "program_url": "https://app.intigriti.com/programs/innogames/innogames/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 4500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 1000,
+          "Critical": 3000,
+          "Exceptional": 4000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 750,
+          "Critical": 1500,
+          "Exceptional": 2500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "AMD Product Security Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/amd/amd/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 500,
+    "max_bounty_overview": 30000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "$",
+        "rewards": {
+          "Low": 2000,
+          "Medium": 5000,
+          "High": 15000,
+          "Critical": 30000,
+          "Exceptional": 30000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "$",
+        "rewards": {
+          "Low": 1000,
+          "Medium": 3000,
+          "High": 9000,
+          "Critical": 15000,
+          "Exceptional": 15000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "$",
+        "rewards": {
+          "Low": 500,
+          "Medium": 1500,
+          "High": 5000,
+          "Critical": 10000,
+          "Exceptional": 10000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Yahoo Bug Bounty",
+    "program_url": "https://app.intigriti.com/programs/yahoo/yahoobugbounty/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 15000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 3000,
+          "Critical": 10000,
+          "Exceptional": 12500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Social Deal",
+    "program_url": "https://app.intigriti.com/programs/socialdeal/socialdeal/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 750,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 200,
+          "Critical": 350,
+          "Exceptional": 750
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Suivo bug bounty",
+    "program_url": "https://app.intigriti.com/programs/suivo/suivoweb/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 250,
+          "High": 700,
+          "Critical": 1100,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "WP Engine Bug Bounty",
+    "program_url": "https://app.intigriti.com/programs/wpengine/wpenginebugbounty/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 250,
+          "High": 500,
+          "Critical": 1000,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 125,
+          "High": 250,
+          "Critical": 500,
+          "Exceptional": 1500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 50,
+          "High": 125,
+          "Critical": 250,
+          "Exceptional": 1250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "BMW Group",
+    "program_url": "https://app.intigriti.com/programs/bmw/bmwgroup/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 150,
+    "max_bounty_overview": 6000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 250,
+          "Medium": 500,
+          "High": 1500,
+          "Critical": 3500,
+          "Exceptional": 6000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 300,
+          "High": 1000,
+          "Critical": 2000,
+          "Exceptional": 3000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Veriff Bug Bounty",
+    "program_url": "https://app.intigriti.com/programs/veriff/veriffbugbounty/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 5,
+    "max_bounty_overview": 6000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 1250,
+          "Critical": 2750,
+          "Exceptional": 4000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 25,
+          "Medium": 100,
+          "High": 750,
+          "Critical": 1750,
+          "Exceptional": 2750
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 5,
+          "Medium": 30,
+          "High": 150,
+          "Critical": 450,
+          "Exceptional": 750
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Bühler Group VDP",
+    "program_url": "https://app.intigriti.com/programs/buhlergroup/buhlergroupvdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "WP Engine VDP",
+    "program_url": "https://app.intigriti.com/programs/wpengine/wpengine/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Soundtrack Your Brand",
+    "program_url": "https://app.intigriti.com/programs/syb/soundtrackyourbrand/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 2500,
+          "Exceptional": 3500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 750,
+          "Critical": 1750,
+          "Exceptional": 2500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "CM.com",
+    "program_url": "https://app.intigriti.com/programs/cmcom/cmcom/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 3000,
+          "Exceptional": 3500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 350,
+          "High": 750,
+          "Critical": 2500,
+          "Exceptional": 3000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 125,
+          "High": 500,
+          "Critical": 1000,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Grafana Labs",
+    "program_url": "https://app.intigriti.com/programs/grafanalabs/grafanaossbbp/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 10,
+    "max_bounty_overview": 15000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 2000,
+          "Critical": 7500,
+          "Exceptional": 10000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 10,
+          "Medium": 100,
+          "High": 750,
+          "Critical": 1750,
+          "Exceptional": 3000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Rivian Bug Bounty",
+    "program_url": "https://app.intigriti.com/programs/rivian/rivianbugbounty/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 5000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "$",
+        "rewards": {
+          "Low": 150,
+          "Medium": 700,
+          "High": 2000,
+          "Critical": 5000,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "$",
+        "rewards": {
+          "Low": 100,
+          "Medium": 350,
+          "High": 1500,
+          "Critical": 3500,
+          "Exceptional": 3500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Zabka Group Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/zabkapolska/zabkagroup-vdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Vlerick Business School",
+    "program_url": "https://app.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Trouw",
+    "program_url": "https://app.intigriti.com/programs/dpgm/trouw/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Intergamma",
+    "program_url": "https://app.intigriti.com/programs/intergamma/intergamma/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 5500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 750,
+          "High": 2000,
+          "Critical": 4000,
+          "Exceptional": 5500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1250,
+          "Critical": 2500,
+          "Exceptional": 4000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 150,
+          "High": 400,
+          "Critical": 1250,
+          "Exceptional": 1750
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "TrueLayer",
+    "program_url": "https://app.intigriti.com/programs/truelayer/truelayer/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 75,
+    "max_bounty_overview": 6000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 175,
+          "Medium": 900,
+          "High": 2250,
+          "Critical": 4000,
+          "Exceptional": 6000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 125,
+          "Medium": 625,
+          "High": 1550,
+          "Critical": 2750,
+          "Exceptional": 4000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 75,
+          "Medium": 350,
+          "High": 850,
+          "Critical": 1500,
+          "Exceptional": 2250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Nexuzhealth Web PACS",
+    "program_url": "https://app.intigriti.com/programs/uz leuven/nexuzhealthwebpacs/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 1000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 100,
+          "High": 400,
+          "Critical": 850,
+          "Exceptional": 1000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Orbia Responsible Disclosure",
+    "program_url": "https://app.intigriti.com/programs/orbia/orbiavdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Wolt",
+    "program_url": "https://app.intigriti.com/programs/wolt/wolt/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 750,
+          "High": 1500,
+          "Critical": 3000,
+          "Exceptional": 3500
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 2000,
+          "Exceptional": 2500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Driessen Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/driessengroep/driessenvdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Tweakers",
+    "program_url": "https://app.intigriti.com/programs/dpgm/tweakers/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Submit your research - Fast lane",
+    "program_url": "https://app.intigriti.com/programs/intigriti/fastlane/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Red Bull",
+    "program_url": "https://app.intigriti.com/programs/redbull/redbull/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "DigitalOcean",
+    "program_url": "https://app.intigriti.com/programs/digitalocean/digitalocean/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 10000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 100,
+          "Medium": 700,
+          "High": 2000,
+          "Critical": 5000,
+          "Exceptional": 8000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 600,
+          "Critical": 1500,
+          "Exceptional": 3000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "EURid",
+    "program_url": "https://app.intigriti.com/programs/eurid/eurid/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 6000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 75,
+          "Medium": 300,
+          "High": 1250,
+          "Critical": 3000,
+          "Exceptional": 6000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 1000,
+          "Critical": 2500,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 50,
+          "High": 1000,
+          "Critical": 2500,
+          "Exceptional": 5000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "9altitudes - Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/ninealtitudes/VDP/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "eHealth Hub VZN KUL",
+    "program_url": "https://app.intigriti.com/programs/uz leuven/ehealthhub&meta-hubvznkul/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 100,
+          "High": 400,
+          "Critical": 1250,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "House of HR Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/houseofhr/houseofhrvulnerabilitydisclosureprogram/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Axel Springer SE Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/axelspringerse/axelspringersevulnerabilitydisclosureprogram/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Yacht",
+    "program_url": "https://app.intigriti.com/programs/randstad/yacht/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Allegro",
+    "program_url": "https://app.intigriti.com/programs/allegro/allegrobugbounty/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 3500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. €max. €",
+        "rewards": {
+          "Low": 100,
+          "Medium": 300,
+          "High": 700,
+          "Critical": 1500,
+          "Exceptional": 2500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "BMC",
+    "program_url": "https://app.intigriti.com/programs/randstad/bmc/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Randstad",
+    "program_url": "https://app.intigriti.com/programs/randstad/randstad/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Sixt",
+    "program_url": "https://app.intigriti.com/programs/sixt/sixt/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Cloudways by DigitalOcean",
+    "program_url": "https://app.intigriti.com/programs/digitalocean/cloudways/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 4000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 100,
+          "Medium": 400,
+          "High": 1000,
+          "Critical": 1800,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 50,
+          "Medium": 200,
+          "High": 400,
+          "Critical": 1000,
+          "Exceptional": 1500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Housing Application (huisvestingsapp) Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/kuleuven/huisvesting/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 1500,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Universitätsspital Zürich VDP",
+    "program_url": "https://app.intigriti.com/programs/universitatsspitalzurich/usz-vdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "e-tracker",
+    "program_url": "https://app.intigriti.com/programs/bpost/e-tracker/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "PeopleCert VDP",
+    "program_url": "https://app.intigriti.com/programs/peoplecert/peoplecert/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Revolut VDP",
+    "program_url": "https://app.intigriti.com/programs/revolut/revolutvdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "GBP",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "VTM GO",
+    "program_url": "https://app.intigriti.com/programs/dpgm/vtmgo/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Citymesh Responsible Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/citymesh/responsiblevulnerabilitydisclosureprogram/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Speakap Responsible Disclosure",
+    "program_url": "https://app.intigriti.com/programs/speakap/speakapresponsibledisclosure/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "De Morgen",
+    "program_url": "https://app.intigriti.com/programs/dpgm/demorgen/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Tempo-Team ",
+    "program_url": "https://app.intigriti.com/programs/randstad/tempo-team/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "DPG Media",
+    "program_url": "https://app.intigriti.com/programs/dpgm/dpgmedia/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 100,
+          "High": 150,
+          "Critical": 300,
+          "Exceptional": 500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 300
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "BMW Group Automotive",
+    "program_url": "https://app.intigriti.com/programs/bmw/bmwgroup-automotive/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 100,
+    "max_bounty_overview": 15000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 500,
+          "Medium": 2000,
+          "High": 5000,
+          "Critical": 10000,
+          "Exceptional": 15000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 2000,
+          "Exceptional": 5000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Water-Link",
+    "program_url": "https://app.intigriti.com/programs/waterlink/water-link/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 300,
+          "High": 1500,
+          "Critical": 3000,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 100,
+          "High": 625,
+          "Critical": 1500,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Nestlé VDP",
+    "program_url": "https://app.intigriti.com/programs/nestlé/nestlévdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Humo",
+    "program_url": "https://app.intigriti.com/programs/dpgm/humo/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Nexuzhealth",
+    "program_url": "https://app.intigriti.com/programs/uz leuven/mobile apps/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 4000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 100,
+          "High": 400,
+          "Critical": 2000,
+          "Exceptional": 4000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "De Lijn",
+    "program_url": "https://app.intigriti.com/programs/delijn/delijn/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Altera",
+    "program_url": "https://app.intigriti.com/programs/altera/altera/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 500,
+    "max_bounty_overview": 30000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "$",
+        "rewards": {
+          "Low": 500,
+          "Medium": 3000,
+          "High": 10000,
+          "Critical": 15000,
+          "Exceptional": 30000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "$",
+        "rewards": {
+          "Low": 500,
+          "Medium": 1500,
+          "High": 3500,
+          "Critical": 5000,
+          "Exceptional": 10000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Sqills",
+    "program_url": "https://app.intigriti.com/programs/sqills/sqillscorporatewebsite/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 150,
+          "High": 500,
+          "Critical": 1500,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 150,
+          "High": 500,
+          "Critical": 750,
+          "Exceptional": 1000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Het Laatste Nieuws",
+    "program_url": "https://app.intigriti.com/programs/dpgm/hetlaatstenieuws/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Mobile Vikings",
+    "program_url": "https://app.intigriti.com/programs/mv/mobilevikings/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 150,
+          "Medium": 1200,
+          "High": 2000,
+          "Critical": 3500,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 75,
+          "Medium": 600,
+          "High": 1000,
+          "Critical": 1750,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 50,
+          "High": 50,
+          "Critical": 50,
+          "Exceptional": 50
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "ING Responsible Disclosure",
+    "program_url": "https://app.intigriti.com/programs/ing/ing-responsible-disclosure/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Twago",
+    "program_url": "https://app.intigriti.com/programs/randstad/twago/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "HRS Group VDP",
+    "program_url": "https://app.intigriti.com/programs/hrsgroup/hrsgroupvdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Telenet - Base - Wyre - Tadaam",
+    "program_url": "https://app.intigriti.com/programs/telenet/telenetgroup/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 2500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "RGF BE - VDP",
+    "program_url": "https://app.intigriti.com/programs/rgfstaffing/rgfbe-vdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Say Technologies Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/robinhood/saytechnologiesbbp/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 10000,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 0,
+          "Medium": 0,
+          "High": 3000,
+          "Critical": 6000,
+          "Exceptional": 8000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "min. $max. $",
+        "rewards": {
+          "Low": 0,
+          "Medium": 0,
+          "High": 1000,
+          "Critical": 3000,
+          "Exceptional": 6000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Digitaal Vlaanderen",
+    "program_url": "https://app.intigriti.com/programs/vod/digitaalvlaanderen/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Libelle",
+    "program_url": "https://app.intigriti.com/programs/dpgm/libelle/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Skoda Auto Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/skodaauto/skodaautoprivatebugbountyprogram/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 200,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 200,
+          "Medium": 600,
+          "High": 1500,
+          "Critical": 3000,
+          "Exceptional": 5000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Het Parool",
+    "program_url": "https://app.intigriti.com/programs/dpgm/hetparool/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "KU Leuven Responsible Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/kuleuven/kuleuvenrdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Algemeen Dagblad",
+    "program_url": "https://app.intigriti.com/programs/dpgm/algemeendagblad/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Online enrollment for students Bug Bounty Program",
+    "program_url": "https://app.intigriti.com/programs/kuleuven/onlineinschrijvingenbetalingstoepassing/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 500,
+          "High": 1000,
+          "Critical": 1500,
+          "Exceptional": 2000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Tomorrowland",
+    "program_url": "https://app.intigriti.com/programs/tomorrowland/tomorrowland/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 150,
+          "High": 500,
+          "Critical": 1000,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 75,
+          "High": 250,
+          "Critical": 500,
+          "Exceptional": 1250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "UZ Leuven",
+    "program_url": "https://app.intigriti.com/programs/uz leuven/uzleuven/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1500,
+          "Critical": 4000,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 250,
+          "High": 750,
+          "Critical": 2000,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 125,
+          "High": 300,
+          "Critical": 850,
+          "Exceptional": 1000
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Uphold",
+    "program_url": "https://app.intigriti.com/programs/Uphold/upholdcom/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 6000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 250,
+          "Medium": 650,
+          "High": 1500,
+          "Critical": 3500,
+          "Exceptional": 6000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 300,
+          "High": 750,
+          "Critical": 1500,
+          "Exceptional": 3000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 0,
+          "High": 300,
+          "Critical": 750,
+          "Exceptional": 1250
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Azena",
+    "program_url": "https://app.intigriti.com/programs/azena/azenaresponsibledisclosure/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "RIPE NCC",
+    "program_url": "https://app.intigriti.com/programs/ripencc/ripencc/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 2000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 250,
+          "High": 700,
+          "Critical": 1100,
+          "Exceptional": 2000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 0,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "DHL Group Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/dhlgroup/dhlvdp/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "SBB - Swiss Federal Railways",
+    "program_url": "https://app.intigriti.com/programs/sbb/sbbglobal/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 1",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 750,
+          "Critical": 2000,
+          "Exceptional": 5000
+        }
+      },
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 125,
+          "High": 400,
+          "Critical": 1000,
+          "Exceptional": 2500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 100,
+          "High": 200,
+          "Critical": 400,
+          "Exceptional": 800
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Oda",
+    "program_url": "https://app.intigriti.com/programs/oda/oda/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 75,
+    "max_bounty_overview": 4000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 400,
+          "High": 1500,
+          "Critical": 3000,
+          "Exceptional": 4000
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 75,
+          "Medium": 250,
+          "High": 750,
+          "Critical": 2000,
+          "Exceptional": 2500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Newpharma",
+    "program_url": "https://app.intigriti.com/programs/colruyt/newpharma/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 50,
+    "max_bounty_overview": 5000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Cyber Security Coalition",
+    "program_url": "https://app.intigriti.com/programs/cybersecuritycoalition/cybersecuritycoalition/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Doccle Bug Bounty program",
+    "program_url": "https://app.intigriti.com/programs/doccle/doccle/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 4000,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "De Volkskrant",
+    "program_url": "https://app.intigriti.com/programs/dpgm/devolkskrant/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 2200,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 50,
+          "Medium": 300,
+          "High": 800,
+          "Critical": 1200,
+          "Exceptional": 2200
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 50,
+          "High": 100,
+          "Critical": 200,
+          "Exceptional": 500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Torfs",
+    "program_url": "https://app.intigriti.com/programs/torfs/torfs/detail",
+    "offers_bounties": true,
+    "is_responsible_disclosure_only": false,
+    "min_bounty_overview": 25,
+    "max_bounty_overview": 6500,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": [
+      {
+        "tier_name": "Tier 2",
+        "currency": "€",
+        "rewards": {
+          "Low": 100,
+          "Medium": 500,
+          "High": 1500,
+          "Critical": 4000,
+          "Exceptional": 6500
+        }
+      },
+      {
+        "tier_name": "Tier 3",
+        "currency": "€",
+        "rewards": {
+          "Low": 25,
+          "Medium": 150,
+          "High": 750,
+          "Critical": 1250,
+          "Exceptional": 1500
+        }
+      }
+    ]
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Capture Our Flag",
+    "program_url": "https://app.intigriti.com/programs/intigriti/captureourflag/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 51337,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Bug bounty program",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "The Coca-Cola Company Vulnerability Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/tccc/coca-cola/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "USD",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  },
+  {
+    "platform": "Intigriti",
+    "program_name": "Canada Post + Purolator - Responsible Disclosure Program",
+    "program_url": "https://app.intigriti.com/programs/innovapost/innovapost/detail",
+    "offers_bounties": false,
+    "is_responsible_disclosure_only": true,
+    "min_bounty_overview": 0,
+    "max_bounty_overview": 0,
+    "currency_overview": "EUR",
+    "raw_program_type_overview": "Responsible disclosure",
+    "detailed_bounties": []
+  }
+]
