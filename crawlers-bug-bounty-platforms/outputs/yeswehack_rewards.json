@@ -1,0 +1,885 @@
+[
+  {
+    "program_url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program",
+    "program_name": "infomaniak-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac600",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/harman-international-public-bug-bounty",
+    "program_name": "harman-international-public-bug-bounty",
+    "rewards": {
+      "Low": "$100",
+      "Medium": "$300",
+      "High": "$1,000",
+      "Critical": "$2,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/paddle-com-public-bug-bounty-program",
+    "program_name": "paddle-com-public-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$100",
+      "High": "$500",
+      "Critical": "$1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/sogexia",
+    "program_name": "sogexia",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac400",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/qwant",
+    "program_name": "qwant",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/ant-group-security-response-center-bug-bounty-program",
+    "program_name": "ant-group-security-response-center-bug-bounty-program",
+    "rewards": {
+      "Low": "$10",
+      "Medium": "$80",
+      "High": "$250",
+      "Critical": "$1,100"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/yes-we-hack",
+    "program_name": "yes-we-hack",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac1,500",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/atg-public-bug-bounty-program",
+    "program_name": "atg-public-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/ooredoo-qpsc-bug-bounty-program",
+    "program_name": "ooredoo-qpsc-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$50",
+      "High": "$300",
+      "Critical": "$700"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/teamviewer-bounty-program",
+    "program_name": "teamviewer-bounty-program",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac200",
+      "High": "\u20ac1,000",
+      "Critical": "\u20ac4,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/vincisa-public-program",
+    "program_name": "vincisa-public-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/swiss-post-evoting",
+    "program_name": "swiss-post-evoting",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac40,000",
+      "High": "\u20ac50,000",
+      "Critical": "\u20ac70,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/louis-vuitton-malletier-public-bug-bounty-program",
+    "program_name": "louis-vuitton-malletier-public-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac600",
+      "Critical": "\u20ac1,800"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/withings-public-program",
+    "program_name": "withings-public-program",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac0",
+      "High": "\u20ac200",
+      "Critical": "\u20ac1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/bug-bounty-sncf-connect-1",
+    "program_name": "bug-bounty-sncf-connect-1",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac50",
+      "High": "\u20ac500",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/bookbeat",
+    "program_name": "bookbeat",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac350",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/gnome-bug-bounty-program",
+    "program_name": "gnome-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac500",
+      "Medium": "\u20ac500",
+      "High": "\u20ac3,000",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/coindcx-bug-bounty-program",
+    "program_name": "coindcx-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$100",
+      "High": "$300",
+      "Critical": "$1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/dracoon-bug-bounty-program",
+    "program_name": "dracoon-bug-bounty-program",
+    "rewards": {
+      "Low": "$1",
+      "Medium": "$500",
+      "High": "$1,000",
+      "Critical": "$3,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/openpgp-js-bug-bounty-program",
+    "program_name": "openpgp-js-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac250",
+      "Medium": "\u20ac1,000",
+      "High": "\u20ac3,000",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/swapcard",
+    "program_name": "swapcard",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac50",
+      "High": "\u20ac400",
+      "Critical": "\u20ac800"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/blackbox-bforbank-mobile",
+    "program_name": "blackbox-bforbank-mobile",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac600",
+      "Critical": "\u20ac1,600"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/fdj-united-online-betting-gaming-bug-bounty-program",
+    "program_name": "fdj-united-online-betting-gaming-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac150",
+      "High": "\u20ac800",
+      "Critical": "\u20ac2,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/ezviz-bug-bounty-program",
+    "program_name": "ezviz-bug-bounty-program",
+    "rewards": {
+      "Low": "$10",
+      "Medium": "$100",
+      "High": "$500",
+      "Critical": "$1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/pine-labs-bug-bounty-program",
+    "program_name": "pine-labs-bug-bounty-program",
+    "rewards": {
+      "Low": "$0",
+      "Medium": "$50",
+      "High": "$250",
+      "Critical": "$500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/toom-baumarkt-gmbh-bug-bounty-program",
+    "program_name": "toom-baumarkt-gmbh-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac300",
+      "Critical": "\u20ac1,200"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/alasco-gmbh-bug-bounty-program",
+    "program_name": "alasco-gmbh-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac200",
+      "Critical": "\u20ac600"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/matrixalm",
+    "program_name": "matrixalm",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac150",
+      "Critical": "\u20ac500"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/swiss-post",
+    "program_name": "swiss-post",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac1,000",
+      "High": "\u20ac3,000",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/maya-public-bug-bounty-program",
+    "program_name": "maya-public-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$50",
+      "High": "$400",
+      "Critical": "$1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/outscale",
+    "program_name": "outscale",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/deezer-bug-bounty-program-2019",
+    "program_name": "deezer-bug-bounty-program-2019",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac100",
+      "High": "\u20ac300",
+      "Critical": "\u20ac800"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/owncloud-bug-bounty-program",
+    "program_name": "owncloud-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$500",
+      "High": "$1,000",
+      "Critical": "$3,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/sante-publique-france-bugbounty-public-program",
+    "program_name": "sante-publique-france-bugbounty-public-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac300",
+      "Critical": "\u20ac700"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/spacelift-io-bug-bounty-program",
+    "program_name": "spacelift-io-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$120",
+      "High": "$600",
+      "Critical": "$1,440"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/demarches-simplifiees-public",
+    "program_name": "demarches-simplifiees-public",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac500",
+      "Critical": "\u20ac1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/ovh",
+    "program_name": "ovh",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac300",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/systemd-bug-bounty-program",
+    "program_name": "systemd-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac250",
+      "Medium": "\u20ac500",
+      "High": "\u20ac3,000",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/log4j-bug-bounty-program",
+    "program_name": "log4j-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac500",
+      "High": "\u20ac3,000",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
+    "program_name": "vfs-global-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$50",
+      "High": "$300",
+      "Critical": "$800"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/bitoasis-bug-bounty-program",
+    "program_name": "bitoasis-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$100",
+      "High": "$300",
+      "Critical": "$1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/bug-bounty-program-blablacar",
+    "program_name": "bug-bounty-program-blablacar",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac200",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/mon-espace-sante-mes",
+    "program_name": "mon-espace-sante-mes",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac200",
+      "High": "\u20ac800",
+      "Critical": "\u20ac4,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/tchap-public",
+    "program_name": "tchap-public",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac3,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/powerdns",
+    "program_name": "powerdns",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/thuringer-aufbaubank-bug-bounty-program",
+    "program_name": "thuringer-aufbaubank-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac200",
+      "Critical": "\u20ac1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/salt-mobile-sa-bug-bounty-program",
+    "program_name": "salt-mobile-sa-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac300",
+      "Critical": "\u20ac800"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/contentsquare-bug-bounty-program",
+    "program_name": "contentsquare-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac0",
+      "High": "\u20ac450",
+      "Critical": "\u20ac900"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/zecible-public-bug-bounty-program",
+    "program_name": "zecible-public-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac200",
+      "Critical": "\u20ac1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/komoju-public-bug-bounty-program",
+    "program_name": "komoju-public-bug-bounty-program",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$50",
+      "High": "$600",
+      "Critical": "$3,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+    "program_name": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+    "rewards": {
+      "Low": "$50",
+      "Medium": "$250",
+      "High": "$750",
+      "Critical": "$1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/datadome-bot-bounty",
+    "program_name": "datadome-bot-bounty",
+    "rewards": {
+      "Low": "\u20ac200",
+      "Medium": "\u20ac200",
+      "High": "\u20ac800",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/harman-international-web-applications",
+    "program_name": "harman-international-web-applications",
+    "rewards": {
+      "Low": "$100",
+      "Medium": "$200",
+      "High": "$500",
+      "Critical": "$2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/grw-trading-fze-bug-bounty-program",
+    "program_name": "grw-trading-fze-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac400",
+      "Critical": "\u20ac1,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/agora",
+    "program_name": "agora",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac400",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/onedoc-sa-bug-bounty-program",
+    "program_name": "onedoc-sa-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac2,500"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/dailymotion-public-bug-bounty",
+    "program_name": "dailymotion-public-bug-bounty",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac70",
+      "High": "\u20ac250",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/telenor-sweden-public-bug-bounty-program",
+    "program_name": "telenor-sweden-public-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/okto-bug-bounty-program",
+    "program_name": "okto-bug-bounty-program",
+    "rewards": {
+      "Low": "$0",
+      "Medium": "$50",
+      "High": "$250",
+      "Critical": "$1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/doctolib-public-bug-bounty-program",
+    "program_name": "doctolib-public-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac4,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+    "program_name": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac200",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program",
+    "program_name": "sequoia-pgp-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac500",
+      "Medium": "\u20ac500",
+      "High": "\u20ac3,000",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/moneybox-bug-bounty",
+    "program_name": "moneybox-bug-bounty",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac500",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/dovecot",
+    "program_name": "dovecot",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac500",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/tencent-bug-bounty-program",
+    "program_name": "tencent-bug-bounty-program",
+    "rewards": {
+      "Low": "$8",
+      "Medium": "$32",
+      "High": "$130",
+      "Critical": "$780"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/app-suite",
+    "program_name": "app-suite",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac250",
+      "High": "\u20ac750",
+      "Critical": "\u20ac2,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/pendulum-bug-bounty-program",
+    "program_name": "pendulum-bug-bounty-program",
+    "rewards": {
+      "Low": "\u20ac250",
+      "Medium": "\u20ac500",
+      "High": "\u20ac3,000",
+      "Critical": "\u20ac5,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/franceconnect-proconnect-public",
+    "program_name": "franceconnect-proconnect-public",
+    "rewards": {
+      "Low": "\u20ac0",
+      "Medium": "\u20ac100",
+      "High": "\u20ac800",
+      "Critical": "\u20ac3,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/datadome-bug-bounty",
+    "program_name": "datadome-bug-bounty",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac300",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/dojo",
+    "program_name": "dojo",
+    "rewards": {},
+    "bounty": false,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/decathlon",
+    "program_name": "decathlon",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac50",
+      "High": "\u20ac500",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/dana-bug-bounty-program",
+    "program_name": "dana-bug-bounty-program",
+    "rewards": {
+      "Low": "$0",
+      "Medium": "$0",
+      "High": "$200",
+      "Critical": "$750"
+    },
+    "bounty": true,
+    "hall_of_fame": false
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/otto-de-bug-bounty",
+    "program_name": "otto-de-bug-bounty",
+    "rewards": {
+      "Low": "\u20ac50",
+      "Medium": "\u20ac250",
+      "High": "\u20ac500",
+      "Critical": "\u20ac1,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  },
+  {
+    "program_url": "https://yeswehack.com/programs/cryptobox-bug-bounty",
+    "program_name": "cryptobox-bug-bounty",
+    "rewards": {
+      "Low": "\u20ac100",
+      "Medium": "\u20ac100",
+      "High": "\u20ac1,000",
+      "Critical": "\u20ac3,000"
+    },
+    "bounty": true,
+    "hall_of_fame": true
+  }
+]
