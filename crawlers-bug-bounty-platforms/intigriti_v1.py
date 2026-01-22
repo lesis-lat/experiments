@@ -46,30 +46,29 @@ def extract_initial_search_results(html_content):
         if json_start_index == -1:
             return None
         brace_level = 0
-        for i in range(json_start_index, len(html_content)):
-            char = html_content[i]
+        for character_index in range(json_start_index, len(html_content)):
+            char = html_content[character_index]
             if char == '{':
                 brace_level += 1
-            elif char == '}':
+            if char == '}':
                 brace_level -= 1
                 if brace_level == 0:
-                    json_str = html_content[json_start_index : i+1]
+                    json_str = html_content[json_start_index : character_index + 1]
                     try:
                         return json.loads(json_str)
-                    except json.JSONDecodeError as e:
-                        print(f"Error decoding JSON (post-brace-counting on extracted string): {e}")
+                    except json.JSONDecodeError as decode_error:
+                        print(f"Error decoding JSON (post-brace-counting on extracted string): {decode_error}")
                         print("Problematic JSON string snippet (brace-counted):", json_str[:200] + "..." + json_str[-200:])
                         return None
         return None
-    except Exception as e_gen:
-        print(f"Generic error during JSON extraction process: {e_gen}")
+    except Exception as general_error:
+        print(f"Generic error during JSON extraction process: {general_error}")
         return None
 
-def get_programs_from_page(page_num, session):
-    if page_num == 1:
-        url = urljoin(INTIGRITI_BASE_URL, PROGRAMS_LIST_PATH)
-    else:
-        url = f"{urljoin(INTIGRITI_BASE_URL, PROGRAMS_LIST_PATH)}?programs_prod%5Bpage%5D={page_num}"
+def get_programs_from_page(page_number, session):
+    url = urljoin(INTIGRITI_BASE_URL, PROGRAMS_LIST_PATH)
+    if page_number != 1:
+        url = f"{urljoin(INTIGRITI_BASE_URL, PROGRAMS_LIST_PATH)}?programs_prod%5Bpage%5D={page_number}"
     print(f"Fetching program list page: {url}")
     try:
         response = session.get(url, headers=HEADERS_MAIN_PAGE, timeout=20)
@@ -80,31 +79,34 @@ def get_programs_from_page(page_num, session):
             if results_data and len(results_data) > 0:
                 return results_data[0].get("hits", [])
         if not initial_data:
-            print(f"Failed to extract JSON data structure from page {page_num}.")
-        elif "programs_prod" not in initial_data:
-            print(f"'programs_prod' key missing in extracted_data for page {page_num}.")
-        else:
-            results_data = initial_data["programs_prod"].get("results")
-            if not results_data or len(results_data) == 0:
-                print(f"'results' array missing or empty in programs_prod for page {page_num}.")
-            else:
-                print(f"'hits' array missing or empty in programs_prod.results[0] for page {page_num}.")
+            print(f"Failed to extract JSON data structure from page {page_number}.")
+            return []
+        if "programs_prod" not in initial_data:
+            print(f"'programs_prod' key missing in extracted_data for page {page_number}.")
+            return []
+        results_data = initial_data["programs_prod"].get("results")
+        if not results_data or len(results_data) == 0:
+            print(f"'results' array missing or empty in programs_prod for page {page_number}.")
+            return []
+        hits_data = results_data[0].get("hits", [])
+        if not hits_data:
+            print(f"'hits' array missing or empty in programs_prod.results[0] for page {page_number}.")
         return []
-    except requests.RequestException as e:
-        print(f"Error fetching page {page_num} ({url}): {e}")
+    except requests.RequestException as request_error:
+        print(f"Error fetching page {page_number} ({url}): {request_error}")
         return []
-    except Exception as e:
-        print(f"An unexpected error occurred while processing page {page_num}: {e}")
+    except Exception as unexpected_error:
+        print(f"An unexpected error occurred while processing page {page_number}: {unexpected_error}")
         return []
 
 def check_if_responsible_disclosure_only(detail_page_url, session):
-    print(f"  Checking VDP status for: {detail_page_url}")
+    print(f"  Checking responsible disclosure status for: {detail_page_url}")
     try:
         response = session.get(detail_page_url, headers=HEADERS_DETAIL_PAGE, timeout=20)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
-        vdp_message = soup.find("p", class_="responsible-disclosure")
-        if vdp_message and "responsible disclosure program without bounties" in vdp_message.get_text(strip=True).lower():
+        responsible_disclosure_message = soup.find("p", class_="responsible-disclosure")
+        if responsible_disclosure_message and "responsible disclosure program without bounties" in responsible_disclosure_message.get_text(strip=True).lower():
             return True
         bounties_header = soup.find(lambda tag: tag.name == "div" and "detail-header" in tag.get("class", []) and "Bounties" in tag.get_text())
         if bounties_header:
@@ -114,74 +116,83 @@ def check_if_responsible_disclosure_only(detail_page_url, session):
                 if "responsible disclosure program without bounties" in text_content:
                     return True
         return False
-    except requests.RequestException as e:
-        print(f"  Error fetching detail page {detail_page_url} for VDP check: {e}")
+    except requests.RequestException as request_error:
+        print(f"  Error fetching detail page {detail_page_url} for responsible disclosure check: {request_error}")
         return False 
-    except Exception as e:
-        print(f"  An unexpected error occurred while checking VDP status for {detail_page_url}: {e}")
+    except Exception as unexpected_error:
+        print(f"  An unexpected error occurred while checking responsible disclosure status for {detail_page_url}: {unexpected_error}")
         return False
 
 def crawl_intigriti_programs():
     all_programs_data = []
     with requests.Session() as session:
-        for page_num in range(1, MAX_PAGES + 1):
-            programs_on_page = get_programs_from_page(page_num, session)
+        for page_number in range(1, MAX_PAGES + 1):
+            programs_on_page = get_programs_from_page(page_number, session)
             if not programs_on_page:
-                print(f"No programs found on page {page_num} or error occurred during extraction. Continuing to next page.")
-                if page_num < MAX_PAGES:
+                print(f"No programs found on page {page_number} or error occurred during extraction. Continuing to next page.")
+                if page_number < MAX_PAGES:
                     time.sleep(1)
                 continue 
-            for prog_hit in programs_on_page:
-                program_name = prog_hit.get("name")
-                company_handle = prog_hit.get("companyHandle")
-                prog_handle = prog_hit.get("handle")
-                if not all([program_name, company_handle, prog_handle]):
-                    print(f"  Skipping program due to missing essential data: {prog_hit.get('objectID', 'N/A')}")
+            for program_hit in programs_on_page:
+                program_name = program_hit.get("name")
+                company_handle = program_hit.get("companyHandle")
+                program_handle = program_hit.get("handle")
+                if not all([program_name, company_handle, program_handle]):
+                    print(f"  Skipping program due to missing essential data: {program_hit.get('objectID', 'N/A')}")
                     continue
-                detail_url = f"{INTIGRITI_APP_BASE_URL}/programs/{company_handle}/{prog_handle}/detail"
-                min_bounty_obj = prog_hit.get("minBounty", {})
-                max_bounty_obj = prog_hit.get("maxBounty", {})
-                min_bounty_val = min_bounty_obj.get("value") if min_bounty_obj else None
-                max_bounty_val = max_bounty_obj.get("value") if max_bounty_obj else None
+                detail_url = f"{INTIGRITI_APP_BASE_URL}/programs/{company_handle}/{program_handle}/detail"
+                min_bounty_info = program_hit.get("minBounty", {})
+                max_bounty_info = program_hit.get("maxBounty", {})
+                minimum_bounty_value = None
+                maximum_bounty_value = None
+                if min_bounty_info:
+                    minimum_bounty_value = min_bounty_info.get("value")
+                if max_bounty_info:
+                    maximum_bounty_value = max_bounty_info.get("value")
                 currency = None
-                if max_bounty_obj and max_bounty_obj.get("currency"):
-                    currency = max_bounty_obj.get("currency")
-                elif min_bounty_obj and min_bounty_obj.get("currency"):
-                    currency = min_bounty_obj.get("currency")
-                program_type = prog_hit.get("programType", "") 
-                is_vdp = False
-                if (max_bounty_val is None or max_bounty_val == 0) or \
-                   "responsible disclosure" in program_type.lower():
-                    if "responsible disclosure" in program_type.lower() or \
-                       (max_bounty_val is None or max_bounty_val == 0 and "bug bounty" not in program_type.lower()):
-                        is_vdp = check_if_responsible_disclosure_only(detail_url, session)
-                        time.sleep(0.5)
-                    elif (max_bounty_val is None or max_bounty_val == 0) and "bug bounty" in program_type.lower():
-                        is_vdp = False 
-                if is_vdp: 
-                    min_bounty_val = 0
-                    max_bounty_val = 0
+                if max_bounty_info and max_bounty_info.get("currency"):
+                    currency = max_bounty_info.get("currency")
+                if currency is None and min_bounty_info and min_bounty_info.get("currency"):
+                    currency = min_bounty_info.get("currency")
+                program_type = program_hit.get("programType", "") 
+                is_responsible_disclosure_only = False
+                has_zero_or_missing_maximum_bounty = maximum_bounty_value is None or maximum_bounty_value == 0
+                has_responsible_disclosure = "responsible disclosure" in program_type.lower()
+                has_bug_bounty = "bug bounty" in program_type.lower()
+                should_check_responsible_disclosure = False
+                if has_responsible_disclosure:
+                    should_check_responsible_disclosure = True
+                if has_zero_or_missing_maximum_bounty and not has_bug_bounty:
+                    should_check_responsible_disclosure = True
+                if should_check_responsible_disclosure:
+                    is_responsible_disclosure_only = check_if_responsible_disclosure_only(detail_url, session)
+                    time.sleep(0.5)
+                if has_zero_or_missing_maximum_bounty and has_bug_bounty and not should_check_responsible_disclosure:
+                    is_responsible_disclosure_only = False
+                if is_responsible_disclosure_only:
+                    minimum_bounty_value = 0
+                    maximum_bounty_value = 0
                 program_info = {
                     "platform": "Intigriti",
                     "program_name": program_name,
                     "program_url": detail_url,
-                    "offers_bounties": not is_vdp and (max_bounty_val is not None and max_bounty_val > 0),
-                    "is_responsible_disclosure_only": is_vdp,
-                    "min_bounty": min_bounty_val,
-                    "max_bounty": max_bounty_val,
+                    "offers_bounties": not is_responsible_disclosure_only and (maximum_bounty_value is not None and maximum_bounty_value > 0),
+                    "is_responsible_disclosure_only": is_responsible_disclosure_only,
+                    "min_bounty": minimum_bounty_value,
+                    "max_bounty": maximum_bounty_value,
                     "currency": currency,
                     "raw_program_type": program_type 
                 }
                 all_programs_data.append(program_info)
-                print(f"Processed: {program_name} (Bounties: {program_info['offers_bounties']}, VDP: {is_vdp}, Max: {max_bounty_val} {currency})")
-            print(f"Finished processing page {page_num}. Found {len(programs_on_page)} programs on this page.")
-            if page_num < MAX_PAGES:
+                print(f"Processed: {program_name} (Bounties: {program_info['offers_bounties']}, Responsible Disclosure Only: {is_responsible_disclosure_only}, Max: {maximum_bounty_value} {currency})")
+            print(f"Finished processing page {page_number}. Found {len(programs_on_page)} programs on this page.")
+            if page_number < MAX_PAGES:
                 time.sleep(1) 
     return all_programs_data
 
 def save_to_json(data, filename="intigriti_programs.json"):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    with open(filename, "w", encoding="utf-8") as file_handle:
+        json.dump(data, file_handle, indent=2, ensure_ascii=False)
     print(f"Results saved to {filename}")
 
 if __name__ == "__main__":
@@ -192,12 +203,12 @@ if __name__ == "__main__":
         if collected_data:
             save_to_json(collected_data)
             print(f"\nSuccessfully crawled {len(collected_data)} programs from Intigriti.")
-        else:
+        if not collected_data:
             print("\nNo data collected from Intigriti.")
     except KeyboardInterrupt:
         print("\nCrawling interrupted by user.")
     finally:
-        if collected_data: 
+        if collected_data:
             print("Saving partially collected data...")
             save_to_json(collected_data, "intigriti_programs_partial.json")
         print("Crawler finished.")

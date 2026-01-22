@@ -5,7 +5,7 @@ import re
 import json
 from urllib.parse import urljoin
 
-headers = {
+request_headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
@@ -15,9 +15,9 @@ headers = {
 base_url = "https://yeswehack.com"
 programs_url = "https://yeswehack.com/programs?page=1&resultsPerPage=74"
 
-def get_program_links(url):
+def get_program_links(list_url):
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(list_url, headers=request_headers)
         response.raise_for_status()
         print(f"HTTP Status: {response.status_code}, URL: {response.url}")
         
@@ -34,13 +34,13 @@ def get_program_links(url):
                 print(f"- {link.get('href')}")
         
         return program_links
-    except requests.RequestException as e:
-        print(f"Error fetching program list: {e}")
+    except requests.RequestException as request_error:
+        print(f"Error fetching program list: {request_error}")
         return []
 
 def extract_rewards(program_url):
     try:
-        response = requests.get(program_url, headers=headers)
+        response = requests.get(program_url, headers=request_headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
         
@@ -77,8 +77,8 @@ def extract_rewards(program_url):
                 reward_data["rewards"][severity] = amount.get_text(strip=True)
 
         return reward_data
-    except requests.RequestException as e:
-        print(f"Error fetching {program_url}: {e}")
+    except requests.RequestException as request_error:
+        print(f"Error fetching {program_url}: {request_error}")
         return None
 
 def crawl_yeswehack_programs():
@@ -89,8 +89,8 @@ def crawl_yeswehack_programs():
         return []
 
     all_rewards = []
-    for i, link in enumerate(program_links, 1):
-        print(f"Processing program {i}/{len(program_links)}: {link}")
+    for program_index, link in enumerate(program_links, 1):
+        print(f"Processing program {program_index}/{len(program_links)}: {link}")
         reward_data = extract_rewards(link)
         if reward_data:
             all_rewards.append(reward_data)
@@ -99,16 +99,17 @@ def crawl_yeswehack_programs():
     return all_rewards
 
 def save_to_json(data, filename="yeswehack_rewards.json"):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    with open(filename, "w", encoding="utf-8") as file_handle:
+        json.dump(data, file_handle, indent=2)
     print(f"Results saved to {filename}")
 
 if __name__ == "__main__":
+    results = []
     try:
         results = crawl_yeswehack_programs()
         if results:
             save_to_json(results)
-        else:
+        if not results:
             print("No data to save.")
     except KeyboardInterrupt:
         print("\nCrawling interrupted by user. Saving collected data...")
