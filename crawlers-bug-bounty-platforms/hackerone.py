@@ -3,7 +3,7 @@ import time
 import json
 from urllib.parse import urljoin
 
-headers = {
+request_headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
     "Accept": "application/json, text/javascript, */*; q=0.01",
     "Content-Type": "application/json",
@@ -14,8 +14,6 @@ headers = {
     "Sec-Fetch-Mode": "cors",
     "Sec-Fetch-Dest": "empty",
     "X-Requested-With": "XMLHttpRequest"
-    # "X-CSRF-Token": " "
-    # "Cookie": " " 
 }
 
 base_url = "https://hackerone.com"
@@ -111,7 +109,7 @@ fragment BountyTable on Team {
 
 def get_program_links():
     try:
-        response = requests.get(programs_search_url, headers=headers)
+        response = requests.get(programs_search_url, headers=request_headers)
         response.raise_for_status()
         print(f"HTTP Status: {response.status_code}, URL: {response.url}")
         
@@ -120,17 +118,17 @@ def get_program_links():
         print(f"Found {len(programs)} programs")
         
         program_links = [
-            {"url": urljoin(base_url, prog["url"]), "handle": prog["handle"]}
-            for prog in programs
-            if prog.get("url") and prog.get("handle")
+            {"url": urljoin(base_url, program_summary["url"]), "handle": program_summary["handle"]}
+            for program_summary in programs
+            if program_summary.get("url") and program_summary.get("handle")
         ]
         
         return program_links
-    except requests.RequestException as e:
-        print(f"Error fetching program list: {e}")
+    except requests.RequestException as request_error:
+        print(f"Error fetching program list: {request_error}")
         return []
-    except ValueError as e:
-        print(f"Error parsing JSON response for programs: {e}")
+    except ValueError as parse_error:
+        print(f"Error parsing JSON response for programs: {parse_error}")
         return []
 
 def extract_rewards(program_url, handle):
@@ -141,7 +139,7 @@ def extract_rewards(program_url, handle):
             "query": graphql_query
         }
         
-        response = requests.post(graphql_url, headers=headers, json=payload)
+        response = requests.post(graphql_url, headers=request_headers, json=payload)
         response.raise_for_status()
         
         data = response.json()
@@ -183,11 +181,11 @@ def extract_rewards(program_url, handle):
                 reward_data["bounty_table"]["rewards"].append(reward_entry)
         
         return reward_data
-    except requests.RequestException as e:
-        print(f"Error fetching {program_url} (handle: {handle}): {e}")
+    except requests.RequestException as request_error:
+        print(f"Error fetching {program_url} (handle: {handle}): {request_error}")
         return None
-    except ValueError as e:
-        print(f"Error parsing JSON response for {program_url}: {e}")
+    except ValueError as parse_error:
+        print(f"Error parsing JSON response for {program_url}: {parse_error}")
         return None
 
 def crawl_hackerone_programs():
@@ -198,9 +196,9 @@ def crawl_hackerone_programs():
         return []
 
     all_rewards = []
-    for i, prog in enumerate(program_links, 1):
-        print(f"Processing program {i}/{len(program_links)}: {prog['url']} (handle: {prog['handle']})")
-        reward_data = extract_rewards(prog["url"], prog["handle"])
+    for program_index, program_summary in enumerate(program_links, 1):
+        print(f"Processing program {program_index}/{len(program_links)}: {program_summary['url']} (handle: {program_summary['handle']})")
+        reward_data = extract_rewards(program_summary["url"], program_summary["handle"])
         if reward_data:
             all_rewards.append(reward_data)
         time.sleep(1)
@@ -208,16 +206,17 @@ def crawl_hackerone_programs():
     return all_rewards
 
 def save_to_json(data, filename="hackerone_rewards.json"):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    with open(filename, "w", encoding="utf-8") as file_handle:
+        json.dump(data, file_handle, indent=2)
     print(f"Results saved to {filename}")
 
 if __name__ == "__main__":
+    results = []
     try:
         results = crawl_hackerone_programs()
         if results:
             save_to_json(results)
-        else:
+        if not results:
             print("No data to save.")
     except KeyboardInterrupt:
         print("\nCrawling interrupted by user. Saving collected data...")

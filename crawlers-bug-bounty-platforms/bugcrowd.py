@@ -49,17 +49,18 @@ def initialize_session_and_csrf():
         soup = BeautifulSoup(response.text, "html.parser")
         csrf_meta_tag = soup.find("meta", attrs={"name": "csrf-token"})
 
+        csrf_token = None
         if csrf_meta_tag and csrf_meta_tag.get("content"):
             csrf_token = csrf_meta_tag["content"]
             print(f"CSRF Token obtained: {csrf_token[:20]}...")
             default_headers["x-csrf-token"] = csrf_token
-        else:
+        if not csrf_token:
             print("Warning: CSRF token meta tag not found. Proceeding without x-csrf-token header.")
-    except requests.RequestException as e:
-        print(f"Error initializing session or fetching CSRF token: {e}")
+    except requests.RequestException as request_error:
+        print(f"Error initializing session or fetching CSRF token: {request_error}")
         print("Warning: Proceeding without CSRF token due to initialization error.")
-    except Exception as e:
-        print(f"An unexpected error occurred during session initialization: {e}")
+    except Exception as unexpected_error:
+        print(f"An unexpected error occurred during session initialization: {unexpected_error}")
     return session, default_headers
 
 
@@ -79,12 +80,12 @@ def get_program_list_page(session, default_headers, page_number):
         response = session.get(list_url, headers=request_headers, timeout=20)
         response.raise_for_status()
         return response.json().get("engagements", [])
-    except requests.RequestException as e:
-        print(f"  Error fetching program list page {page_number}: {e}")
-    except json.JSONDecodeError as e:
+    except requests.RequestException as request_error:
+        print(f"  Error fetching program list page {page_number}: {request_error}")
+    except json.JSONDecodeError as decode_error:
         print(
             "  Error decoding JSON for program list page "
-            f"{page_number}: {e}. Response text: {response.text[:200]}"
+            f"{page_number}: {decode_error}. Response text: {response.text[:200]}"
         )
     return []
 
@@ -111,8 +112,8 @@ def extract_changelog_base_path(html_content, program_html_url):
 
     try:
         api_endpoints_data = json.loads(api_endpoints_str)
-    except json.JSONDecodeError as e:
-        print(f"    Error decoding data-api-endpoints JSON for {program_html_url}: {e}")
+    except json.JSONDecodeError as decode_error:
+        print(f"    Error decoding data-api-endpoints JSON for {program_html_url}: {decode_error}")
         print(f"    Raw string (first 300 chars): {api_endpoints_str[:300]}")
         return None
 
@@ -186,12 +187,12 @@ def get_program_details(session, default_headers, program_brief_url_path):
 
         return extract_program_scopes(details_data, details_json_url)
 
-    except requests.RequestException as e:
-        print(f"    Error during network request for {program_brief_url_path}: {e}")
-    except json.JSONDecodeError as e:
-        print(f"    Error decoding JSON for {program_brief_url_path} (potentially from details_json_url): {e}")
-    except Exception as e:
-        print(f"    An unexpected error occurred processing {program_brief_url_path}: {e}")
+    except requests.RequestException as request_error:
+        print(f"    Error during network request for {program_brief_url_path}: {request_error}")
+    except json.JSONDecodeError as decode_error:
+        print(f"    Error decoding JSON for {program_brief_url_path} (potentially from details_json_url): {decode_error}")
+    except Exception as unexpected_error:
+        print(f"    An unexpected error occurred processing {program_brief_url_path}: {unexpected_error}")
         import traceback
 
         traceback.print_exc()
@@ -223,12 +224,15 @@ def crawl_bugcrowd():
             print(f"\nProcessing program: {program_name} (Path: {brief_url_path})")
             detailed_scopes = get_program_details(session, default_headers, brief_url_path)
 
+            scopes = []
+            if detailed_scopes:
+                scopes = detailed_scopes
             program_data_entry = {
                 "platform": "Bugcrowd",
                 "program_name": program_name,
                 "program_url": urljoin(BASE_URL, brief_url_path),
                 "overall_reward_summary": reward_summary_overview,
-                "scopes": detailed_scopes if detailed_scopes else [],
+                "scopes": scopes,
             }
             all_program_data.append(program_data_entry)
 
@@ -245,8 +249,8 @@ def save_to_json(data, filename="bugcrowd_rewards.json"):
         with open(filename, "w", encoding="utf-8") as file_handle:
             json.dump(data, file_handle, indent=2, ensure_ascii=False)
         print(f"\nResults successfully saved to {filename}")
-    except IOError as e:
-        print(f"\nError saving data to {filename}: {e}")
+    except IOError as io_error:
+        print(f"\nError saving data to {filename}: {io_error}")
 
 
 if __name__ == "__main__":
@@ -259,28 +263,28 @@ if __name__ == "__main__":
 
         if collected_data:
             print(f"\nSuccessfully crawled {len(collected_data)} programs from Bugcrowd.")
-        else:
+        if not collected_data:
             print("\nNo data collected from Bugcrowd.")
-    except KeyboardInterrupt as ki:
+    except KeyboardInterrupt as keyboard_interrupt:
         print("\nCrawling interrupted by user.")
-        exception_caught = ki
-    except Exception as ex:
-        print(f"\nAn unexpected critical error occurred during crawling: {ex}")
+        exception_caught = keyboard_interrupt
+    except Exception as unexpected_error:
+        print(f"\nAn unexpected critical error occurred during crawling: {unexpected_error}")
         import traceback
 
         traceback.print_exc()
-        exception_caught = ex
+        exception_caught = unexpected_error
     finally:
         if collected_data:
             print("Attempting to save any collected data...")
             filename_to_save = "bugcrowd_rewards_final.json"
             if isinstance(exception_caught, KeyboardInterrupt):
                 filename_to_save = "bugcrowd_rewards_partial.json"
-            elif exception_caught is not None:
+            if exception_caught is not None and not isinstance(exception_caught, KeyboardInterrupt):
                 filename_to_save = "bugcrowd_rewards_error_dump.json"
 
             save_to_json(collected_data, filename_to_save)
-        else:
+        if not collected_data:
             print("No data was collected to save.")
         end_time = time.time()
         print(f"Total execution time: {end_time - start_time:.2f} seconds.")
